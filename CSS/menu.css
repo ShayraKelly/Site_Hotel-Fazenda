@@ -1,0 +1,125 @@
+/*
+
+#C0B76C
+#B8B065
+#CDC388
+#D1C78A
+#CBBFA7
+#D1CAB8
+#EAE5DF
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #EAE5DF;
+}
+
+header{
+    display: block;
+    position: relative;
+}
+
+#menu{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: rgba(66, 46, 19, 0.892);
+    flex-direction: row;
+}
+
+#menu .nome img{
+    width: 10%;
+}
+
+#menu .nome{
+    display: flex;
+    text-align: center;
+    float: left;
+}
+
+
+#menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 1em .8em;
+    position: relative;
+    font-size: 20px;
+    color: #A8A15E;
+    text-decoration: none;
+    transition: .3s;
+    text-transform: uppercase;
+}
+#menu ul li a:hover{
+    background-color: #A8A15E;
+    color: rgba(66, 46, 19, 0.749);
+}
+
+main{
+    display: flex;
+    margin: 0 5%;
+    flex-direction: column;
+    background-color: #dfdbce;
+}
+
+main section{
+    margin-top: 10%;
+    display: block;
+}
+
+section h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2%;
+    color: #8a9052;
+}
+
+section .album-fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 2%;
+    padding: 0 6%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.album-fotos{
+    width: 30%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.album-fotos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #8aa058;
+}
+
+footer .contato{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+}
+
+footer .contato h3{
+    font-size: 18px;
+    text-align: center;
+}
